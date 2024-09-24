@@ -71,7 +71,7 @@
     		<artifactId>spring-web</artifactId>
     		<version>${spring.version}</version>
   		</dependency>
-		<dependency>
+		<dependency> 
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://54.174.161.39:8081/repository/release/</url>
+	      <url>http://35.174.109.172:8081/repository/relase/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://54.174.161.39:8081/repository/snapshot/</url>
+	      <url>http://35.174.109.172:8081/repository/snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
